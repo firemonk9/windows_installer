@@ -42,7 +42,7 @@ namespace Dataq.Installer
             try
             {
                 conn = new MySqlConnection();
-                conn.ConnectionString = textBox1.Text; //"uid=root;pwd=dataq;"; ;//"server=127.0.0.1;uid=root;pwd=dataq;";
+                conn.ConnectionString = "server=127.0.0.1;uid=root;pwd=dataq;";// textBox1.Text; //"uid=root;pwd=dataq;"; ;//"server=127.0.0.1;uid=root;pwd=dataq;";
                 conn.Open();
             }
             catch (Exception ex)
