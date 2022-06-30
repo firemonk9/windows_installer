@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataqServiceManager", "DataqServiceManager\DataqServiceManager.csproj", "{8FFBF9C4-6876-4E26-868C-048C9E0CEC05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dataq.Installer", "Dataq.Installer\Dataq.Installer.csproj", "{A85E6D47-4E1C-44EB-B610-62A9B365B855}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FFBF9C4-6876-4E26-868C-048C9E0CEC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FFBF9C4-6876-4E26-868C-048C9E0CEC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FFBF9C4-6876-4E26-868C-048C9E0CEC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FFBF9C4-6876-4E26-868C-048C9E0CEC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A85E6D47-4E1C-44EB-B610-62A9B365B855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85E6D47-4E1C-44EB-B610-62A9B365B855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85E6D47-4E1C-44EB-B610-62A9B365B855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85E6D47-4E1C-44EB-B610-62A9B365B855}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58F6A618-AD65-4718-9BD9-BE9EC974213B}
+	EndGlobalSection
+EndGlobal
